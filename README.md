@@ -31,7 +31,7 @@ The Location Tracker is a web application designed to track and display real-tim
    First, clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/location-tracker.git
+   git clone https://github.com/jatin-jamdagni/Live-Location-Tracker.git
    cd location-tracker
    ```
 
