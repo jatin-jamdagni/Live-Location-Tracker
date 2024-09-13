@@ -2,11 +2,12 @@ const express = require('express');
 const { createServer } = require('http');
 const path = require('path');
 const { Server } = require('socket.io');
-
+require('dotenv').config()
 const app = express();
 const server = createServer(app);
 const io = new Server(server);
-
+const port = process.env.PORT || 3000;
+ 
 // Set the view engine to ejs
 app.set('view engine', 'ejs');
 
@@ -34,6 +35,6 @@ app.get('/', (req, res) => {
 });
 
 // Start the server
-server.listen(3000, () => {
-  console.log('Server running at http://localhost:3000/');
+server.listen(port, () => {
+  console.log(`Server running at PORT: ${port}`);
 });
