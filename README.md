@@ -37,9 +37,12 @@ The Location Tracker is a web application designed to track and display real-tim
 
 2. **Install Dependencies**
 
-   ```bash npm install```
-
+   ```bash 
+   npm install
+   ```
    
 2. **Start**
 
-   ```bash npm run start```
+   ```bash 
+   npm run start
+   ```
